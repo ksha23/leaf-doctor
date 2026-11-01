@@ -1,0 +1,76 @@
+[
+  {
+    "photo": "TRAIN/1576389-early%20blight%20symptoms.jpg",
+    "photo_size": [
+      382,
+      261
+    ],
+    "true_label": "early_blight",
+    "stage1_leaf_finder": {
+      "box": [
+        5.9,
+        28.1,
+        381.4,
+        258.6
+      ],
+      "score": 0.913
+    },
+    "stage2_probabilities": {
+      "bacterial_spot": 0.034,
+      "early_blight": 0.61,
+      "late_blight": 0.306,
+      "leaf_mold": 0.003,
+      "septoria_leaf_spot": 0.037,
+      "mosaic_virus": 0.003,
+      "yellow_leaf_curl_virus": 0.002,
+      "healthy": 0.005
+    },
+    "stage3_route": "ask",
+    "stage3_candidates": [
+      "early_blight",
+      "late_blight"
+    ],
+    "sources": [
+      "https://pddc.wisc.edu/2015/07/23/early-blight/",
+      "https://pddc.wisc.edu/2015/07/28/late-blight/"
+    ],
+    "stage4_text": "What characteristic feature distinguishes the initial symptoms of early blight from those of late blight?",
+    "stage4_seconds": 1.9
+  },
+  {
+    "photo": "TRAIN/3606630.jpg",
+    "photo_size": [
+      325,
+      216
+    ],
+    "true_label": "early_blight",
+    "stage1_leaf_finder": {
+      "box": [
+        6.5,
+        5.0,
+        311.0,
+        215.0
+      ],
+      "score": 0.363
+    },
+    "stage2_probabilities": {
+      "bacterial_spot": 0.034,
+      "early_blight": 0.119,
+      "late_blight": 0.742,
+      "leaf_mold": 0.024,
+      "septoria_leaf_spot": 0.02,
+      "mosaic_virus": 0.018,
+      "yellow_leaf_curl_virus": 0.032,
+      "healthy": 0.011
+    },
+    "stage3_route": "advise",
+    "stage3_candidates": [
+      "late_blight"
+    ],
+    "sources": [
+      "https://pddc.wisc.edu/2015/07/28/late-blight/"
+    ],
+    "stage4_text": "1. Identify and remove infected plants: Pull up and dispose of tomato plants showing signs of late blight, including brown-black, water-soaked, oily areas with a white-gray fuzziness.\n\n2. Dispose of affected fruits properly: If tomatoes or potatoes have been affected by late blight, do not attempt to compost them; instead, bag them and leave them outside until they decompose naturally.\n\n3. Plant tolerant varieties: Choose tomato varieties like 'Defiant PHR', 'Iron Lady', 'Jasper', 'JTO-545', 'Lemon Drop', 'Matt\u2019s Wild Cherry', 'Mountain Magic', 'Mountain Merit', 'Mr. Stripey', 'Plum Regal', 'Pruden\u2019s Purple', 'Stellar' and 'Wapsipin",
+    "stage4_seconds": 2.9
+  }
+]

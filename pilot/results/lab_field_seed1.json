@@ -1,0 +1,41 @@
+{
+  "arm": "lab_field",
+  "seed": 1,
+  "device": "cuda",
+  "updates": 800,
+  "batch_size": 64,
+  "train_images": {
+    "lab": 12047,
+    "field": 1754
+  },
+  "train_seconds": 55.2,
+  "predict_seconds": 2.0,
+  "field_boxes_skipped_as_too_small": 7,
+  "lab_dev": {
+    "n": 3033,
+    "macro_f1": 0.9723048569222168,
+    "macro_f1_ci95": [
+      0.9614960291418907,
+      0.9820260612484484
+    ],
+    "accuracy": 0.9805473128915265
+  },
+  "field_dev_labelled_crops": {
+    "n": 420,
+    "macro_f1": 0.5356946702164105,
+    "macro_f1_ci95": [
+      0.4584563468254338,
+      0.6022303261479364
+    ],
+    "accuracy": 0.569047619047619
+  },
+  "field_dev_whole_photos": {
+    "n": 112,
+    "macro_f1": 0.5700269485220759,
+    "macro_f1_ci95": [
+      0.4634226463912926,
+      0.6561108940176377
+    ],
+    "accuracy": 0.6071428571428571
+  }
+}

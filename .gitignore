@@ -1,0 +1,9 @@
+# Datasets and model files stay out of the repository. See README for access.
+data/
+runs/
+cache/
+*.pt
+*.npz
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

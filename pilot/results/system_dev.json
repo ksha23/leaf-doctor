@@ -1,0 +1,972 @@
+{
+  "dev_photos_scored": 112,
+  "finder_crops_scored": 463,
+  "majority_class_floor": {
+    "macro_f1": 0.041044776119402986,
+    "accuracy": 0.19642857142857142
+  },
+  "thresholds": {
+    "advise_at": 0.7,
+    "ask_at": 0.85
+  },
+  "lab_seed0": {
+    "whole_photo": {
+      "n": 112,
+      "macro_f1": 0.17656440781440783,
+      "macro_f1_ci95": [
+        0.1058293443896768,
+        0.2424969138027139
+      ],
+      "accuracy": 0.25892857142857145
+    },
+    "finder_best_box": {
+      "n": 112,
+      "macro_f1": 0.1952815009447331,
+      "macro_f1_ci95": [
+        0.1378102928682067,
+        0.24509268715769375
+      ],
+      "accuracy": 0.30357142857142855
+    },
+    "finder_all_boxes_averaged": {
+      "n": 112,
+      "macro_f1": 0.15688291139240507,
+      "macro_f1_ci95": [
+        0.10520258510628677,
+        0.20648169595781807
+      ],
+      "accuracy": 0.26785714285714285
+    },
+    "labelled_crop_each_box": {
+      "n": 420,
+      "macro_f1": 0.1998898740085216,
+      "macro_f1_ci95": [
+        0.14637028449459144,
+        0.2520875092506239
+      ],
+      "accuracy": 0.3047619047619048
+    },
+    "temperature": 6.750000000000005,
+    "calibration_error_before": 0.5398007415767226,
+    "calibration_error_after": 0.058251772075891495,
+    "triage_finder_best_box": {
+      "right_advice": 0.008928571428571428,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 0.9910714285714286,
+      "precision_when_advising": 1.0,
+      "top2_accuracy_all_photos": 0.4642857142857143
+    },
+    "triage_finder_all_boxes": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.48214285714285715
+    },
+    "triage_whole_photo": {
+      "right_advice": 0.017857142857142856,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 0.9821428571428571,
+      "precision_when_advising": 1.0,
+      "top2_accuracy_all_photos": 0.42857142857142855
+    },
+    "per_class_f1_whole_photo": {
+      "bacterial_spot": 0.0,
+      "early_blight": 0.23076923076923078,
+      "late_blight": 0.3888888888888889,
+      "leaf_mold": 0.0,
+      "septoria_leaf_spot": 0.34285714285714286,
+      "mosaic_virus": 0.0,
+      "yellow_leaf_curl_virus": 0.25,
+      "healthy": 0.2
+    },
+    "confusion_whole_photo": [
+      [
+        0,
+        10,
+        5,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        6,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        2,
+        0,
+        6,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        5,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        6,
+        2,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "lab_seed1": {
+    "whole_photo": {
+      "n": 112,
+      "macro_f1": 0.1750438606796839,
+      "macro_f1_ci95": [
+        0.10188449728783595,
+        0.24078952938738118
+      ],
+      "accuracy": 0.25
+    },
+    "finder_best_box": {
+      "n": 112,
+      "macro_f1": 0.20834328483822834,
+      "macro_f1_ci95": [
+        0.1513964198986163,
+        0.25501741676946327
+      ],
+      "accuracy": 0.3125
+    },
+    "finder_all_boxes_averaged": {
+      "n": 112,
+      "macro_f1": 0.15298925212718317,
+      "macro_f1_ci95": [
+        0.09848469497152218,
+        0.2021369590316243
+      ],
+      "accuracy": 0.24107142857142858
+    },
+    "labelled_crop_each_box": {
+      "n": 420,
+      "macro_f1": 0.18670203358778464,
+      "macro_f1_ci95": [
+        0.13894849250526428,
+        0.23068188389203237
+      ],
+      "accuracy": 0.2976190476190476
+    },
+    "temperature": 7.700000000000006,
+    "calibration_error_before": 0.524049467540213,
+    "calibration_error_after": 0.1308361426261919,
+    "triage_finder_best_box": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.4642857142857143
+    },
+    "triage_finder_all_boxes": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.44642857142857145
+    },
+    "triage_whole_photo": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.42857142857142855
+    },
+    "per_class_f1_whole_photo": {
+      "bacterial_spot": 0.0,
+      "early_blight": 0.3018867924528302,
+      "late_blight": 0.3287671232876712,
+      "leaf_mold": 0.0,
+      "septoria_leaf_spot": 0.30303030303030304,
+      "mosaic_virus": 0.0,
+      "yellow_leaf_curl_virus": 0.26666666666666666,
+      "healthy": 0.2
+    },
+    "confusion_whole_photo": [
+      [
+        0,
+        8,
+        7,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        4,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        3,
+        1,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        4,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        5,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "lab_seed2": {
+    "whole_photo": {
+      "n": 112,
+      "macro_f1": 0.1340697817588574,
+      "macro_f1_ci95": [
+        0.07926325796703797,
+        0.18470693233319016
+      ],
+      "accuracy": 0.21428571428571427
+    },
+    "finder_best_box": {
+      "n": 112,
+      "macro_f1": 0.1855746336996337,
+      "macro_f1_ci95": [
+        0.1279451953932905,
+        0.23271797149692708
+      ],
+      "accuracy": 0.2857142857142857
+    },
+    "finder_all_boxes_averaged": {
+      "n": 112,
+      "macro_f1": 0.15882406797040943,
+      "macro_f1_ci95": [
+        0.10388563860129489,
+        0.21474605768910673
+      ],
+      "accuracy": 0.25
+    },
+    "labelled_crop_each_box": {
+      "n": 420,
+      "macro_f1": 0.19409791761694004,
+      "macro_f1_ci95": [
+        0.13953135198794156,
+        0.24984661012150627
+      ],
+      "accuracy": 0.29285714285714287
+    },
+    "temperature": 7.100000000000006,
+    "calibration_error_before": 0.5550740531512669,
+    "calibration_error_after": 0.08644547792417663,
+    "triage_finder_best_box": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.4732142857142857
+    },
+    "triage_finder_all_boxes": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.4642857142857143
+    },
+    "triage_whole_photo": {
+      "right_advice": 0.0,
+      "wrong_advice": 0.0,
+      "asked_two_candidates": 0.0,
+      "asked_and_truth_is_a_candidate": 0.0,
+      "referred_to_clinic": 1.0,
+      "precision_when_advising": 0.0,
+      "top2_accuracy_all_photos": 0.42857142857142855
+    },
+    "per_class_f1_whole_photo": {
+      "bacterial_spot": 0.0,
+      "early_blight": 0.20408163265306123,
+      "late_blight": 0.3076923076923077,
+      "leaf_mold": 0.0,
+      "septoria_leaf_spot": 0.29411764705882354,
+      "mosaic_virus": 0.0,
+      "yellow_leaf_curl_virus": 0.26666666666666666,
+      "healthy": 0.0
+    },
+    "confusion_whole_photo": [
+      [
+        0,
+        8,
+        7,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        6,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        3,
+        0,
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        5,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        7,
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "lab_field_seed0": {
+    "whole_photo": {
+      "n": 112,
+      "macro_f1": 0.5706151508630088,
+      "macro_f1_ci95": [
+        0.4642630053066705,
+        0.6561062168422837
+      ],
+      "accuracy": 0.6071428571428571
+    },
+    "finder_best_box": {
+      "n": 112,
+      "macro_f1": 0.5505304511593211,
+      "macro_f1_ci95": [
+        0.45468170838738786,
+        0.6302519526208409
+      ],
+      "accuracy": 0.5803571428571429
+    },
+    "finder_all_boxes_averaged": {
+      "n": 112,
+      "macro_f1": 0.5637884717296482,
+      "macro_f1_ci95": [
+        0.4553024933293476,
+        0.645560370167611
+      ],
+      "accuracy": 0.5803571428571429
+    },
+    "labelled_crop_each_box": {
+      "n": 420,
+      "macro_f1": 0.5438834315637986,
+      "macro_f1_ci95": [
+        0.4652997392415926,
+        0.6157138902090886
+      ],
+      "accuracy": 0.5880952380952381
+    },
+    "temperature": 2.3000000000000016,
+    "calibration_error_before": 0.23034985044172832,
+    "calibration_error_after": 0.04847965283053261,
+    "triage_finder_best_box": {
+      "right_advice": 0.26785714285714285,
+      "wrong_advice": 0.08035714285714286,
+      "asked_two_candidates": 0.15178571428571427,
+      "asked_and_truth_is_a_candidate": 0.14285714285714285,
+      "referred_to_clinic": 0.5,
+      "precision_when_advising": 0.7692307692307693,
+      "top2_accuracy_all_photos": 0.75
+    },
+    "triage_finder_all_boxes": {
+      "right_advice": 0.026785714285714284,
+      "wrong_advice": 0.017857142857142856,
+      "asked_two_candidates": 0.05357142857142857,
+      "asked_and_truth_is_a_candidate": 0.044642857142857144,
+      "referred_to_clinic": 0.9017857142857143,
+      "precision_when_advising": 0.6,
+      "top2_accuracy_all_photos": 0.7857142857142857
+    },
+    "triage_whole_photo": {
+      "right_advice": 0.19642857142857142,
+      "wrong_advice": 0.05357142857142857,
+      "asked_two_candidates": 0.125,
+      "asked_and_truth_is_a_candidate": 0.10714285714285714,
+      "referred_to_clinic": 0.625,
+      "precision_when_advising": 0.7857142857142857,
+      "top2_accuracy_all_photos": 0.8214285714285714
+    },
+    "per_class_f1_whole_photo": {
+      "bacterial_spot": 0.5641025641025641,
+      "early_blight": 0.6363636363636364,
+      "late_blight": 0.6976744186046512,
+      "leaf_mold": 0.5,
+      "septoria_leaf_spot": 0.6818181818181818,
+      "mosaic_virus": 0.16666666666666666,
+      "yellow_leaf_curl_virus": 0.47619047619047616,
+      "healthy": 0.8421052631578947
+    },
+    "confusion_whole_photo": [
+      [
+        11,
+        1,
+        2,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        7,
+        4,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        15,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        4,
+        6,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        15,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1,
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        5,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        8
+      ]
+    ]
+  },
+  "lab_field_seed1": {
+    "whole_photo": {
+      "n": 112,
+      "macro_f1": 0.5700269485220759,
+      "macro_f1_ci95": [
+        0.4634226463912926,
+        0.6561108940176377
+      ],
+      "accuracy": 0.6071428571428571
+    },
+    "finder_best_box": {
+      "n": 112,
+      "macro_f1": 0.538705277686971,
+      "macro_f1_ci95": [
+        0.43662924518428364,
+        0.6240437167825142
+      ],
+      "accuracy": 0.5535714285714286
+    },
+    "finder_all_boxes_averaged": {
+      "n": 112,
+      "macro_f1": 0.5391365578865579,
+      "macro_f1_ci95": [
+        0.4331934164116675,
+        0.625079685601944
+      ],
+      "accuracy": 0.5535714285714286
+    },
+    "labelled_crop_each_box": {
+      "n": 420,
+      "macro_f1": 0.5356946702164105,
+      "macro_f1_ci95": [
+        0.4584563468254338,
+        0.6022303261479364
+      ],
+      "accuracy": 0.569047619047619
+    },
+    "temperature": 2.4000000000000017,
+    "calibration_error_before": 0.2721434597458158,
+    "calibration_error_after": 0.1194903568497726,
+    "triage_finder_best_box": {
+      "right_advice": 0.22321428571428573,
+      "wrong_advice": 0.0625,
+      "asked_two_candidates": 0.14285714285714285,
+      "asked_and_truth_is_a_candidate": 0.10714285714285714,
+      "referred_to_clinic": 0.5714285714285714,
+      "precision_when_advising": 0.78125,
+      "top2_accuracy_all_photos": 0.7410714285714286
+    },
+    "triage_finder_all_boxes": {
+      "right_advice": 0.044642857142857144,
+      "wrong_advice": 0.017857142857142856,
+      "asked_two_candidates": 0.0625,
+      "asked_and_truth_is_a_candidate": 0.044642857142857144,
+      "referred_to_clinic": 0.875,
+      "precision_when_advising": 0.7142857142857143,
+      "top2_accuracy_all_photos": 0.7767857142857143
+    },
+    "triage_whole_photo": {
+      "right_advice": 0.20535714285714285,
+      "wrong_advice": 0.05357142857142857,
+      "asked_two_candidates": 0.08928571428571429,
+      "asked_and_truth_is_a_candidate": 0.08928571428571429,
+      "referred_to_clinic": 0.6517857142857143,
+      "precision_when_advising": 0.7931034482758621,
+      "top2_accuracy_all_photos": 0.7678571428571429
+    },
+    "per_class_f1_whole_photo": {
+      "bacterial_spot": 0.5714285714285714,
+      "early_blight": 0.6086956521739131,
+      "late_blight": 0.8333333333333334,
+      "leaf_mold": 0.6206896551724138,
+      "septoria_leaf_spot": 0.6222222222222222,
+      "mosaic_virus": 0.15384615384615385,
+      "yellow_leaf_curl_virus": 0.4,
+      "healthy": 0.75
+    },
+    "confusion_whole_photo": [
+      [
+        12,
+        1,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        7,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        15,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        9,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        7,
+        0,
+        0,
+        0,
+        14,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        2,
+        1,
+        3,
+        4,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        6
+      ]
+    ]
+  },
+  "lab_field_seed2": {
+    "whole_photo": {
+      "n": 112,
+      "macro_f1": 0.5523145398107027,
+      "macro_f1_ci95": [
+        0.44008943598375533,
+        0.6443157370648133
+      ],
+      "accuracy": 0.5535714285714286
+    },
+    "finder_best_box": {
+      "n": 112,
+      "macro_f1": 0.5737182151455258,
+      "macro_f1_ci95": [
+        0.4710410622258857,
+        0.6586514732684084
+      ],
+      "accuracy": 0.5892857142857143
+    },
+    "finder_all_boxes_averaged": {
+      "n": 112,
+      "macro_f1": 0.5452066709573549,
+      "macro_f1_ci95": [
+        0.44200295796063427,
+        0.6299137143329306
+      ],
+      "accuracy": 0.5714285714285714
+    },
+    "labelled_crop_each_box": {
+      "n": 420,
+      "macro_f1": 0.5417046284168001,
+      "macro_f1_ci95": [
+        0.457613359109956,
+        0.612930818180351
+      ],
+      "accuracy": 0.580952380952381
+    },
+    "temperature": 2.3500000000000014,
+    "calibration_error_before": 0.2566129573221717,
+    "calibration_error_after": 0.08232116379908154,
+    "triage_finder_best_box": {
+      "right_advice": 0.24107142857142858,
+      "wrong_advice": 0.0625,
+      "asked_two_candidates": 0.125,
+      "asked_and_truth_is_a_candidate": 0.08928571428571429,
+      "referred_to_clinic": 0.5714285714285714,
+      "precision_when_advising": 0.7941176470588235,
+      "top2_accuracy_all_photos": 0.7410714285714286
+    },
+    "triage_finder_all_boxes": {
+      "right_advice": 0.044642857142857144,
+      "wrong_advice": 0.017857142857142856,
+      "asked_two_candidates": 0.03571428571428571,
+      "asked_and_truth_is_a_candidate": 0.017857142857142856,
+      "referred_to_clinic": 0.9017857142857143,
+      "precision_when_advising": 0.7142857142857143,
+      "top2_accuracy_all_photos": 0.7589285714285714
+    },
+    "triage_whole_photo": {
+      "right_advice": 0.22321428571428573,
+      "wrong_advice": 0.05357142857142857,
+      "asked_two_candidates": 0.125,
+      "asked_and_truth_is_a_candidate": 0.09821428571428571,
+      "referred_to_clinic": 0.5982142857142857,
+      "precision_when_advising": 0.8064516129032258,
+      "top2_accuracy_all_photos": 0.7857142857142857
+    },
+    "per_class_f1_whole_photo": {
+      "bacterial_spot": 0.4782608695652174,
+      "early_blight": 0.5,
+      "late_blight": 0.7368421052631579,
+      "leaf_mold": 0.5925925925925926,
+      "septoria_leaf_spot": 0.4878048780487805,
+      "mosaic_virus": 0.42857142857142855,
+      "yellow_leaf_curl_virus": 0.4444444444444444,
+      "healthy": 0.75
+    },
+    "confusion_whole_photo": [
+      [
+        11,
+        1,
+        1,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        6,
+        3,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        2,
+        8,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        11,
+        0,
+        0,
+        0,
+        10,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        1,
+        3,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        2,
+        1,
+        2,
+        4,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        6
+      ]
+    ]
+  }
+}

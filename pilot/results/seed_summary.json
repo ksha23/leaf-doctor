@@ -1,0 +1,593 @@
+{
+  "photos": 112,
+  "majority_class_floor": {
+    "macro_f1": 0.041044776119402986,
+    "accuracy": 0.19642857142857142
+  },
+  "lab": {
+    "train_minutes": {
+      "mean": 0.92,
+      "std": 0.003,
+      "per_seed": [
+        0.923,
+        0.917,
+        0.92
+      ]
+    },
+    "lab_dev_macro_f1": {
+      "mean": 0.987,
+      "std": 0.001,
+      "per_seed": [
+        0.986,
+        0.988,
+        0.987
+      ]
+    },
+    "temperature": {
+      "mean": 7.183,
+      "std": 0.48,
+      "per_seed": [
+        6.75,
+        7.7,
+        7.1
+      ]
+    },
+    "whole_photo_macro_f1": {
+      "mean": 0.162,
+      "std": 0.024,
+      "per_seed": [
+        0.177,
+        0.175,
+        0.134
+      ]
+    },
+    "whole_photo_accuracy": {
+      "mean": 0.241,
+      "std": 0.024,
+      "per_seed": [
+        0.259,
+        0.25,
+        0.214
+      ]
+    },
+    "finder_best_box_macro_f1": {
+      "mean": 0.196,
+      "std": 0.011,
+      "per_seed": [
+        0.195,
+        0.208,
+        0.186
+      ]
+    },
+    "finder_best_box_accuracy": {
+      "mean": 0.301,
+      "std": 0.014,
+      "per_seed": [
+        0.304,
+        0.312,
+        0.286
+      ]
+    },
+    "finder_all_boxes_averaged_macro_f1": {
+      "mean": 0.156,
+      "std": 0.003,
+      "per_seed": [
+        0.157,
+        0.153,
+        0.159
+      ]
+    },
+    "finder_all_boxes_averaged_accuracy": {
+      "mean": 0.253,
+      "std": 0.014,
+      "per_seed": [
+        0.268,
+        0.241,
+        0.25
+      ]
+    },
+    "triage_whole_photo_right_advice": {
+      "mean": 0.006,
+      "std": 0.01,
+      "per_seed": [
+        0.018,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_whole_photo_wrong_advice": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_whole_photo_asked_two_candidates": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_whole_photo_asked_and_truth_is_a_candidate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_whole_photo_referred_to_clinic": {
+      "mean": 0.994,
+      "std": 0.01,
+      "per_seed": [
+        0.982,
+        1.0,
+        1.0
+      ]
+    },
+    "triage_whole_photo_top2_accuracy_all_photos": {
+      "mean": 0.429,
+      "std": 0.0,
+      "per_seed": [
+        0.429,
+        0.429,
+        0.429
+      ]
+    },
+    "triage_finder_best_box_right_advice": {
+      "mean": 0.003,
+      "std": 0.005,
+      "per_seed": [
+        0.009,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_finder_best_box_wrong_advice": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_finder_best_box_asked_two_candidates": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_finder_best_box_asked_and_truth_is_a_candidate": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "triage_finder_best_box_referred_to_clinic": {
+      "mean": 0.997,
+      "std": 0.005,
+      "per_seed": [
+        0.991,
+        1.0,
+        1.0
+      ]
+    },
+    "triage_finder_best_box_top2_accuracy_all_photos": {
+      "mean": 0.467,
+      "std": 0.005,
+      "per_seed": [
+        0.464,
+        0.464,
+        0.473
+      ]
+    },
+    "whole_photo_f1_bacterial_spot": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "whole_photo_f1_early_blight": {
+      "mean": 0.246,
+      "std": 0.051,
+      "per_seed": [
+        0.231,
+        0.302,
+        0.204
+      ]
+    },
+    "whole_photo_f1_late_blight": {
+      "mean": 0.342,
+      "std": 0.042,
+      "per_seed": [
+        0.389,
+        0.329,
+        0.308
+      ]
+    },
+    "whole_photo_f1_leaf_mold": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "whole_photo_f1_septoria_leaf_spot": {
+      "mean": 0.313,
+      "std": 0.026,
+      "per_seed": [
+        0.343,
+        0.303,
+        0.294
+      ]
+    },
+    "whole_photo_f1_mosaic_virus": {
+      "mean": 0.0,
+      "std": 0.0,
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "whole_photo_f1_yellow_leaf_curl_virus": {
+      "mean": 0.261,
+      "std": 0.01,
+      "per_seed": [
+        0.25,
+        0.267,
+        0.267
+      ]
+    },
+    "whole_photo_f1_healthy": {
+      "mean": 0.133,
+      "std": 0.115,
+      "per_seed": [
+        0.2,
+        0.2,
+        0.0
+      ]
+    },
+    "most_confused_pairs_whole_photo": {
+      "errors_over_seeds": 255,
+      "pairs": [
+        [
+          42,
+          "early_blight",
+          "septoria_leaf_spot"
+        ],
+        [
+          39,
+          "late_blight",
+          "leaf_mold"
+        ],
+        [
+          29,
+          "early_blight",
+          "late_blight"
+        ],
+        [
+          26,
+          "bacterial_spot",
+          "early_blight"
+        ],
+        [
+          24,
+          "late_blight",
+          "healthy"
+        ]
+      ]
+    }
+  },
+  "lab_field": {
+    "train_minutes": {
+      "mean": 0.919,
+      "std": 0.002,
+      "per_seed": [
+        0.917,
+        0.92,
+        0.92
+      ]
+    },
+    "lab_dev_macro_f1": {
+      "mean": 0.972,
+      "std": 0.002,
+      "per_seed": [
+        0.974,
+        0.972,
+        0.969
+      ]
+    },
+    "temperature": {
+      "mean": 2.35,
+      "std": 0.05,
+      "per_seed": [
+        2.3,
+        2.4,
+        2.35
+      ]
+    },
+    "whole_photo_macro_f1": {
+      "mean": 0.564,
+      "std": 0.01,
+      "per_seed": [
+        0.571,
+        0.57,
+        0.552
+      ]
+    },
+    "whole_photo_accuracy": {
+      "mean": 0.589,
+      "std": 0.031,
+      "per_seed": [
+        0.607,
+        0.607,
+        0.554
+      ]
+    },
+    "finder_best_box_macro_f1": {
+      "mean": 0.554,
+      "std": 0.018,
+      "per_seed": [
+        0.551,
+        0.539,
+        0.574
+      ]
+    },
+    "finder_best_box_accuracy": {
+      "mean": 0.574,
+      "std": 0.019,
+      "per_seed": [
+        0.58,
+        0.554,
+        0.589
+      ]
+    },
+    "finder_all_boxes_averaged_macro_f1": {
+      "mean": 0.549,
+      "std": 0.013,
+      "per_seed": [
+        0.564,
+        0.539,
+        0.545
+      ]
+    },
+    "finder_all_boxes_averaged_accuracy": {
+      "mean": 0.568,
+      "std": 0.014,
+      "per_seed": [
+        0.58,
+        0.554,
+        0.571
+      ]
+    },
+    "triage_whole_photo_right_advice": {
+      "mean": 0.208,
+      "std": 0.014,
+      "per_seed": [
+        0.196,
+        0.205,
+        0.223
+      ]
+    },
+    "triage_whole_photo_wrong_advice": {
+      "mean": 0.054,
+      "std": 0.0,
+      "per_seed": [
+        0.054,
+        0.054,
+        0.054
+      ]
+    },
+    "triage_whole_photo_asked_two_candidates": {
+      "mean": 0.113,
+      "std": 0.021,
+      "per_seed": [
+        0.125,
+        0.089,
+        0.125
+      ]
+    },
+    "triage_whole_photo_asked_and_truth_is_a_candidate": {
+      "mean": 0.098,
+      "std": 0.009,
+      "per_seed": [
+        0.107,
+        0.089,
+        0.098
+      ]
+    },
+    "triage_whole_photo_referred_to_clinic": {
+      "mean": 0.625,
+      "std": 0.027,
+      "per_seed": [
+        0.625,
+        0.652,
+        0.598
+      ]
+    },
+    "triage_whole_photo_top2_accuracy_all_photos": {
+      "mean": 0.792,
+      "std": 0.027,
+      "per_seed": [
+        0.821,
+        0.768,
+        0.786
+      ]
+    },
+    "triage_finder_best_box_right_advice": {
+      "mean": 0.244,
+      "std": 0.022,
+      "per_seed": [
+        0.268,
+        0.223,
+        0.241
+      ]
+    },
+    "triage_finder_best_box_wrong_advice": {
+      "mean": 0.068,
+      "std": 0.01,
+      "per_seed": [
+        0.08,
+        0.062,
+        0.062
+      ]
+    },
+    "triage_finder_best_box_asked_two_candidates": {
+      "mean": 0.14,
+      "std": 0.014,
+      "per_seed": [
+        0.152,
+        0.143,
+        0.125
+      ]
+    },
+    "triage_finder_best_box_asked_and_truth_is_a_candidate": {
+      "mean": 0.113,
+      "std": 0.027,
+      "per_seed": [
+        0.143,
+        0.107,
+        0.089
+      ]
+    },
+    "triage_finder_best_box_referred_to_clinic": {
+      "mean": 0.548,
+      "std": 0.041,
+      "per_seed": [
+        0.5,
+        0.571,
+        0.571
+      ]
+    },
+    "triage_finder_best_box_top2_accuracy_all_photos": {
+      "mean": 0.744,
+      "std": 0.005,
+      "per_seed": [
+        0.75,
+        0.741,
+        0.741
+      ]
+    },
+    "whole_photo_f1_bacterial_spot": {
+      "mean": 0.538,
+      "std": 0.052,
+      "per_seed": [
+        0.564,
+        0.571,
+        0.478
+      ]
+    },
+    "whole_photo_f1_early_blight": {
+      "mean": 0.582,
+      "std": 0.072,
+      "per_seed": [
+        0.636,
+        0.609,
+        0.5
+      ]
+    },
+    "whole_photo_f1_late_blight": {
+      "mean": 0.756,
+      "std": 0.07,
+      "per_seed": [
+        0.698,
+        0.833,
+        0.737
+      ]
+    },
+    "whole_photo_f1_leaf_mold": {
+      "mean": 0.571,
+      "std": 0.063,
+      "per_seed": [
+        0.5,
+        0.621,
+        0.593
+      ]
+    },
+    "whole_photo_f1_septoria_leaf_spot": {
+      "mean": 0.597,
+      "std": 0.099,
+      "per_seed": [
+        0.682,
+        0.622,
+        0.488
+      ]
+    },
+    "whole_photo_f1_mosaic_virus": {
+      "mean": 0.25,
+      "std": 0.155,
+      "per_seed": [
+        0.167,
+        0.154,
+        0.429
+      ]
+    },
+    "whole_photo_f1_yellow_leaf_curl_virus": {
+      "mean": 0.44,
+      "std": 0.038,
+      "per_seed": [
+        0.476,
+        0.4,
+        0.444
+      ]
+    },
+    "whole_photo_f1_healthy": {
+      "mean": 0.781,
+      "std": 0.053,
+      "per_seed": [
+        0.842,
+        0.75,
+        0.75
+      ]
+    },
+    "most_confused_pairs_whole_photo": {
+      "errors_over_seeds": 138,
+      "pairs": [
+        [
+          35,
+          "bacterial_spot",
+          "septoria_leaf_spot"
+        ],
+        [
+          14,
+          "mosaic_virus",
+          "yellow_leaf_curl_virus"
+        ],
+        [
+          13,
+          "early_blight",
+          "late_blight"
+        ],
+        [
+          10,
+          "leaf_mold",
+          "mosaic_virus"
+        ],
+        [
+          7,
+          "late_blight",
+          "leaf_mold"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "plantvillage": {
+    "pv_train": {
+      "images": 12047,
+      "leaf_groups": 2729,
+      "per_class": {
+        "bacterial_spot": 1704,
+        "early_blight": 804,
+        "late_blight": 1537,
+        "leaf_mold": 760,
+        "septoria_leaf_spot": 1425,
+        "mosaic_virus": 293,
+        "yellow_leaf_curl_virus": 4246,
+        "healthy": 1278
+      }
+    },
+    "pv_dev": {
+      "images": 3033,
+      "leaf_groups": 683,
+      "per_class": {
+        "bacterial_spot": 423,
+        "early_blight": 196,
+        "late_blight": 372,
+        "leaf_mold": 192,
+        "septoria_leaf_spot": 346,
+        "mosaic_virus": 80,
+        "yellow_leaf_curl_virus": 1111,
+        "healthy": 313
+      }
+    }
+  },
+  "plantdoc": {
+    "pd_train": {
+      "photos": 446,
+      "boxes": 1829,
+      "mixed_label_photos": 9,
+      "per_class": {
+        "healthy": 37,
+        "bacterial_spot": 70,
+        "yellow_leaf_curl_virus": 46,
+        "leaf_mold": 54,
+        "early_blight": 51,
+        "septoria_leaf_spot": 89,
+        "mosaic_virus": 32,
+        "late_blight": 67
+      }
+    },
+    "pd_dev": {
+      "photos": 112,
+      "boxes": 427,
+      "mixed_label_photos": 0,
+      "per_class": {
+        "early_blight": 13,
+        "septoria_leaf_spot": 22,
+        "healthy": 9,
+        "late_blight": 17,
+        "leaf_mold": 14,
+        "mosaic_virus": 8,
+        "bacterial_spot": 17,
+        "yellow_leaf_curl_virus": 12
+      }
+    },
+    "pd_final": {
+      "photos": 188,
+      "boxes": 674,
+      "mixed_label_photos": 5,
+      "per_class": {
+        "bacterial_spot": 29,
+        "septoria_leaf_spot": 37,
+        "early_blight": 22,
+        "yellow_leaf_curl_virus": 20,
+        "late_blight": 28,
+        "healthy": 16,
+        "leaf_mold": 22,
+        "mosaic_virus": 14
+      }
+    },
+    "listed_but_missing_files": 0,
+    "duplicate_photos_grouped": 25,
+    "duplicate_groups_crossing_official_split": 5
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "model": "google/owlv2-base-patch16-ensemble",
+  "device": "mps",
+  "photos": 112,
+  "no_box_above_threshold": 2,
+  "best_box_iou_at_least_0.5": 0.6428571428571429,
+  "mean_best_box_iou": 0.578875,
+  "seconds_per_photo": 0.32
+}
