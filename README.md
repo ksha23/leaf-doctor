@@ -17,7 +17,7 @@ A home gardener photographs a sick leaf. The system either gives care steps from
 
 | Folder | Contents |
 | --- | --- |
-| `docs/` | Project proposal, without the member names and GitHub usernames (those are only in the Canvas copy) |
+| `docs/` | Project proposal as a PDF, its Word source, and the diagram. To rebuild the PDF, open `proposal.docx` in Word and save as PDF. Member names and GitHub usernames are left out and are only in the Canvas copy |
 | `splits/` | Frozen train, development and final partitions |
 | `pilot/` | Feasibility pilot code and saved results |
 | `P1/` | Data access, baseline, evaluation harness |
