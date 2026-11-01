@@ -17,6 +17,7 @@ A home gardener photographs a sick leaf. The system either gives care steps from
 
 | Folder | Contents |
 | --- | --- |
+| `docs/` | Project proposal, without the member names and GitHub usernames (those are only in the Canvas copy) |
 | `splits/` | Frozen train, development and final partitions |
 | `pilot/` | Feasibility pilot code and saved results |
 | `P1/` | Data access, baseline, evaluation harness |
