@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="356" viewBox="0 0 760 356" role="img" aria-label="Only the classifier is trained, and the gate decides what the gardener sees" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#0b0b0b">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#c3c2b7"/>
+    </marker>
+  </defs>
+
+  <rect width="760" height="356" fill="#ffffff"/>
+
+  <text x="16" y="26" font-size="15" font-weight="bold">Only the classifier is trained, and the gate decides what the gardener sees</text>
+
+  <!-- Key -->
+  <g fill="#52514e">
+    <rect x="16" y="40" width="18" height="12" rx="3" fill="#e5effa" stroke="#2a78d6" stroke-width="2"/>
+    <text x="40" y="50">Trained by the team</text>
+    <rect x="176" y="40" width="18" height="12" rx="3" fill="none" stroke="#c3c2b7" stroke-width="1.25"/>
+    <text x="200" y="50">Pretrained network, frozen</text>
+    <rect x="376" y="40" width="18" height="12" rx="3" fill="none" stroke="#c3c2b7" stroke-width="1.25" stroke-dasharray="4 3"/>
+    <text x="400" y="50">Not neural</text>
+  </g>
+
+  <text x="200" y="82">Training data: PlantVillage photos, plus PlantDoc leaf crops in the change arm</text>
+
+  <!-- Arrows -->
+  <g fill="none" stroke="#c3c2b7" stroke-width="1.25" marker-end="url(#arrow)">
+    <path d="M284 88V106"/>
+    <path d="M184 180H200"/>
+    <path d="M368 180H384"/>
+    <path d="M552 180H568"/>
+    <path d="M60 300V254"/>
+    <path d="M140 254V300"/>
+    <path d="M586 300V254"/>
+    <path d="M724 254V300"/>
+  </g>
+
+  <!-- Stage 1 -->
+  <rect x="16" y="106" width="168" height="148" rx="8" fill="none" stroke="#c3c2b7" stroke-width="1.25"/>
+  <text x="26" y="128" font-size="13" font-weight="bold">1 Leaf finder</text>
+  <text x="26" y="146">OWLv2 detector</text>
+  <text x="26" y="161">Owner: P3</text>
+  <text x="26" y="176">Later topic, pretrained,</text>
+  <text x="26" y="191">frozen</text>
+  <text x="26" y="206">In: RGB photo, H x W x 3</text>
+  <text x="26" y="221">Out: box, score</text>
+  <text x="26" y="236">Next: crop or photo to 2</text>
+
+  <!-- Stage 2 -->
+  <rect x="200" y="106" width="168" height="148" rx="8" fill="#e5effa" stroke="#2a78d6" stroke-width="2"/>
+  <text x="210" y="128" font-size="13" font-weight="bold">2 Disease classifier</text>
+  <text x="210" y="146">EfficientNet-B0</text>
+  <text x="210" y="161">Owner: P2</text>
+  <text x="210" y="176">Taught, team fine-tuned,</text>
+  <text x="210" y="191">4.0M parameters</text>
+  <text x="210" y="206">In: image, 3 x 224 x 224</text>
+  <text x="210" y="221">Out: 8 logits</text>
+  <text x="210" y="236">Next: stage 3</text>
+
+  <!-- Stage 3 -->
+  <rect x="384" y="106" width="168" height="148" rx="8" fill="none" stroke="#c3c2b7" stroke-width="1.25" stroke-dasharray="5 4"/>
+  <text x="394" y="128" font-size="13" font-weight="bold">3 Triage gate</text>
+  <text x="394" y="146">Temperature, thresholds</text>
+  <text x="394" y="161">Owner: P4</text>
+  <text x="394" y="176">Later topic, 1 scalar</text>
+  <text x="394" y="191">fitted on real photos</text>
+  <text x="394" y="206">In: 8 logits</text>
+  <text x="394" y="221">Out: route, 2 candidates</text>
+  <text x="394" y="236">Next: stage 4</text>
+
+  <!-- Stage 4 -->
+  <rect x="568" y="106" width="168" height="148" rx="8" fill="none" stroke="#c3c2b7" stroke-width="1.25"/>
+  <text x="578" y="128" font-size="13" font-weight="bold">4 Advice writer</text>
+  <text x="578" y="146">Retrieval, Qwen2.5-1.5B</text>
+  <text x="578" y="161">Owner: P4</text>
+  <text x="578" y="176">Later topic, pretrained,</text>
+  <text x="578" y="191">frozen</text>
+  <text x="578" y="206">In: route, passages</text>
+  <text x="578" y="221">Out: text, source link</text>
+  <text x="578" y="236">Next: gardener</text>
+
+  <!-- Arrow labels -->
+  <g fill="#52514e">
+    <text x="66" y="282">photo</text>
+    <text x="146" y="282">no leaf: retake photo</text>
+    <text x="580" y="282" text-anchor="end">answer to the question</text>
+    <text x="718" y="274" text-anchor="end">care steps, one question,</text>
+    <text x="718" y="289" text-anchor="end">or clinic referral</text>
+  </g>
+
+  <!-- Gardener -->
+  <rect x="16" y="300" width="720" height="36" rx="8" fill="#ededec" stroke="#c3c2b7" stroke-width="1.25"/>
+  <text x="376" y="322" text-anchor="middle" font-size="13" font-weight="bold">Home gardener</text>
+</svg>

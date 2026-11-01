@@ -17,7 +17,7 @@ A home gardener photographs a sick leaf. The system either gives care steps from
 
 | Folder | Contents |
 | --- | --- |
-| `docs/` | Project proposal as a PDF, its Word source, and the diagram. To rebuild the PDF, open `proposal.docx` in Word and save as PDF. Member names and GitHub usernames are left out and are only in the Canvas copy |
+| `docs/` | Project proposal (PDF and Word source) and its diagram (SVG source and PNG). Member names and GitHub usernames are left out and are only in the Canvas copy |
 | `splits/` | Frozen train, development and final partitions |
 | `pilot/` | Feasibility pilot code and saved results |
 | `P1/` | Data access, baseline, evaluation harness |
@@ -25,6 +25,18 @@ A home gardener photographs a sick leaf. The system either gives care steps from
 | `P3/` | Leaf finder and pipeline integration |
 | `P4/` | Triage gate, advice writer, and demo |
 | `final/` | Integrated Colab notebook and final results |
+
+## Rebuilding the proposal
+
+To rebuild the PDF, open `docs/proposal.docx` in Word and save as PDF. Check that it stays at 3 pages.
+
+To change the diagram, edit `docs/architecture.svg` in a text editor or Inkscape. Then export a PNG, and in Word right-click the diagram in `proposal.docx` and choose Change Picture. To export with Chrome on a Mac, run this from `docs/`:
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --hide-scrollbars \
+  --user-data-dir="$(mktemp -d)" --force-device-scale-factor=2 --window-size=760,356 \
+  --screenshot=architecture.png "file://$PWD/architecture.svg"
+```
 
 ## Data access
 
